@@ -1,0 +1,247 @@
+/*****************************************************************************************ADRIEN*****************************************************************************************/
+
+
+/* ====================  */
+/* === CSS DE BASE ==== */
+/* =================== */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+ }
+
+
+h1, h2{
+    font-family: "Segoe UI", sans-serif;
+    }
+p {
+    color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+
+header{
+  height: 90px;
+  background: rgba(81, 95, 103, 0.85);
+}
+
+.inner-width{
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+
+/* =================  */
+/* === CSS Menu ==== */
+/* ================ */
+
+
+
+
+.navigation-menu{
+  float: right;
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+}
+
+.navigation-menu a{
+  margin-left: 10px;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: .3s linear;
+}
+
+.navigation-menu a:hover{
+  background: rgba(81, 95, 103, 0.85);
+  color: #4bcaff;
+  transform: scale(1.1);
+}
+
+.navigation-menu i{
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.menu-toggle-btn{
+  float: right;
+  height: 90px;
+  line-height: 90px !important;
+  color: #fff;
+  font-size: 26px;
+  display: none !important;
+  cursor: pointer;
+}
+/*================================*/
+/*=== CSS Responsive Menu Burger=*/
+/*==============================*/
+@media screen and (max-width:700px) {
+  .menu-toggle-btn{
+    display: block !important;
+  }
+
+  .navigation-menu{
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(81, 95, 103, 0.85)0;
+    top: 90px;
+    right: 0;
+    display: none;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+
+  .navigation-menu::before{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #172b4d;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+
+  .navigation-menu a{
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navigation-menu.active{
+    display: block;
+  }
+ 
+}
+
+/* ================  */
+/* === CSS Logo === */
+/* ================*/
+
+.logo{
+  float: left;
+  padding: 35px 0;
+  
+}
+
+.logo img{
+  height: 20px;
+}
+
+/* ============================= */
+/* === CSS I'am looking for === */
+/* =========================== */
+
+.header_main {
+    background: url(/Images_projet/header.jpg) fixed center no-repeat;
+    min-height: 800px;
+    color: #fff;
+    background-size: cover;
+    width: 100%;
+    padding: 12.5% 0;
+    text-align: center;
+  }
+  .line {
+    display: inline-block;
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: rgba(81, 95, 103, 0.85);
+    padding: 15px 18px;
+    margin-top: 10px;
+  }
+
+/* ====================  */
+/* === CSS services === */
+/* ====================*/
+.services {
+    width: 100%;
+    background-color: #4bcaff;
+  }
+  .content_wrap {
+    
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .content_wrap h2 {
+    font-size: 1.875rem;
+    font-weight: 300;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+   
+  }
+  .content_wrap h2:after {
+    content: " ";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    top: 43px;
+    left: 0;
+    background: #fff;
+  }
+  .info_block {
+    width:25%;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+/*================================*/
+/*=== CSS Responsive Services====*/
+/*==============================*/
+@media screen and (max-width: 700px) {
+  .basic_menu a {
+    display: block;
+    text-align: center;
+  }
+
+  .basic_menu {
+    display: none;
+    top: 100%;
+    right: -2%;
+    width: 150px;
+    background: rgba(81, 95, 103, 0.85);
+    
+ }
+  
+  .line {
+    font-size: 20px;
+  }
+  
+  .info_block {
+    width: calc(25% - 30px);
+    
+    
+  }
+  .info_block p {
+    margin-bottom: 20px;
+  }
+  .test {
+    display: none;
+  }
+ 
+  /*****************************************************************************************FIN ADRIEN*****************************************************************************************/

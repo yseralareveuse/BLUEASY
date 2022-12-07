@@ -1,0 +1,452 @@
+@media (max-width:800px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    body {
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+
+/*****************************************************************************************CHLOE*****************************************************************************************/
+
+    /*PORTFOLIO*/
+    
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        width: 100%;
+        background-color: none ;
+        border: none;
+    }
+    
+    .banniere_port {
+        border: none;
+        justify-content: space-between;
+        border: none;
+        width: 100%;
+    }
+    
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin-top: 25px;
+        color: #6F7A80;
+        font-weight: 200;
+        margin-left: 15px;
+    }
+    
+    .por {
+        text-decoration: underline;
+    }
+    
+    .menu {
+        color: #6F7A80;
+        font-weight: 600;
+        text-decoration: none;
+        
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: right;
+        margin-left: 350px;
+        margin-top: 37px;
+        
+    }
+    
+    .menu li {
+        margin-right: 15px;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    
+    
+    .menu li:hover {
+        color: #4BC9FD;
+        border: solid 2px #4BC9FD;
+    }
+    
+    .galerie {
+        display: flex;
+        width: 60%;
+        background-color: none ;
+        border: none;
+        margin-bottom: 5px; 
+        margin-top: 0;  
+    }
+
+    .photo_part3 {
+        display: none;
+    }
+
+    /*********************IMAGE*********************/
+
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8 {
+    position: relative;
+    width: 110px;
+    cursor: pointer;
+    margin: 15px;
+
+}
+.container1 img, .container2 img, .container3 img, .container4 img, .container5 img, .container6 img, .container7 img, .container8 img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.hovered1, .hovered2, .hovered3, .hovered4, .hovered5, .hovered6, .hovered7, .hovered8 {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%; width: 100%;
+    opacity: 0; transition: all .3s;
+    background-color: #3f3f44;   
+}
+
+.container1:hover .hovered1, .container2:hover .hovered2, .container3:hover .hovered3, .container4:hover .hovered4, .container5:hover .hovered5, .container6:hover .hovered6, .container7:hover .hovered7, .container8:hover .hovered8 {
+    opacity: 0.8;
+}
+.hovered1 span, .hovered2 span, .hovered3 span, .hovered4 span, .hovered5 span, .hovered6 span, .hovered7 span, .hovered8 span {
+    color: white;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: arial;
+    transform: translate(-50%, -50%);
+}
+
+    /*JUST DEFAULT SECTION*/
+    .page2 {
+        background-color:#515F67 ;
+       
+        border: none;
+        border: none;
+        
+        
+        
+    }
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        border: none;
+        width: 100%;
+        background-color: #515F67 ;
+        
+    }
+    
+    .title2 {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        margin-top: 10px;
+        color: #6F7A80;
+        font-weight: 600;
+        color: white;
+        border: none;
+        
+    }
+    
+    .jus {
+        text-decoration: underline;
+    }
+    
+    .container {
+        display: flex;
+        align-items:flex-start;
+        margin: 0 auto 0; 
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .texte {
+        color: white;
+        text-align: justify;
+        font-size: 8px;
+        word-spacing: 0.4em;
+        line-height: 1.5em;
+        border: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .para1 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .button {
+        width: 75.44px;
+        height: 20px;
+        font-size: 8px;
+        font-weight: 200;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: transparent;
+        border: solid 1px black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px; 
+    }
+    
+    .para2{
+        display: none;
+    }
+
+    .video img {
+        width: 80%;
+        margin-left: auto;
+        margin-bottom: 15px;
+        display:flex;
+        text-align: center;
+        border: none;
+        
+    }
+    
+    /*TWITTER*/
+    .page3 {
+        background-color: #4BCAFF;
+  
+    }
+
+    .twitter {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        width: 100%;
+        background-color: #4BCAFF ;
+        border: none;
+    }
+    
+    .banniere {
+        display:flex;
+        width: 100%;
+        border: none;
+        margin: 0;
+    }
+    
+    .title3 {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin-bottom: 20px;
+        color: #6F7A80;
+        font-weight: 600;
+        color: white;
+        margin-left: 15px;
+        
+    }
+    
+    .twi {
+        text-decoration: underline;
+    }
+    
+    .texte_twitter {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        width: 100%;
+        text-align: center;
+        border: none;
+        font-size: 8px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .container_twitter {
+        align-items: center;
+        margin: 0 auto 0;
+        width: 100%;
+    }
+    
+    .cheesecake {
+        font-weight: 800;
+    }
+
+    .logo_twitter img {
+        width: 60%;
+    }
+
+
+/*****************************************************************************************FIN CHLOE*****************************************************************************************/
+
+
+/*****************************************************************************************ANDY*****************************************************************************************/
+
+/* who is john */
+
+.page4 {
+    width: 100%;
+    background-image: url(bgphoto.png);
+    background-size: cover;
+   
+}
+.banniere_john {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 0;
+    border: none;
+    margin-bottom: 15px;
+    width: 75%;
+
+}
+
+.john{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0;
+    border: none;
+    width: 65%;
+}
+
+.text-1{    
+    margin-left: 10%;
+    margin-right: 10%;}
+
+.p3{
+    display: none;}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.parajohn2 {
+    display: none;
+}
+
+.parajohn3 {
+    display: none;
+}
+
+/*who is john*/
+
+/* testimonal */
+#testimonal
+{
+    background-color: rgba(255, 255, 255, 1);
+   
+}
+#testimonal div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#alignement{
+    display: flex;
+    justify-content: space-between;
+
+   }
+.timonial-text
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.timtext
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#textebleu{
+    color: aqua;
+    font-size: medium ;
+}
+
+
+
+.titre_testi {
+    font-size: 10px;
+}
+/* testimonal */
+/* contact */
+.contact
+{
+ background-image: url(contact.png);
+ background-repeat: repeat;
+ background-size: cover;
+ text-align: justify;
+ color: rgba(255, 255, 255, 1);
+
+}
+
+#FULL-NAME{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 4vh;
+}
+#EMAIL{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 4vh;
+}
+.boutton{
+    height: 5vh;
+    border: 1px solid #00fff2;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    background-color:#00fff2 ;
+    float: center;
+}
+#Text{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 10vh;
+}
+.name{
+    padding-bottom: 2%;
+}
+.email{
+    padding-bottom: 2%;
+}
+.message{
+    padding-bottom: 2%;
+}
+.contactexte{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* contact */
+/* footer */
+.Footer
+{
+    background-color: rgba(53, 63, 71, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+}
+.home
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    word-spacing: 20%;
+}
+/* footer */
+
+/*****************************************************************************************FIN ANDY*****************************************************************************************/
+}

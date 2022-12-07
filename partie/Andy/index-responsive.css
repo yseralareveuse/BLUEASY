@@ -1,0 +1,141 @@
+
+    /*****************************************************************************************ANDY*****************************************************************************************/
+
+    
+    /* who is john */
+
+.john{
+    background-image: url(bgphoto.png);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom: 4%;
+    margin:0;
+}
+.textejohn{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.logojohn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* testimonal */
+
+.testimonial{
+    background-color: rgb(255, 255, 255);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.testgui{
+    display: flex;
+    justify-content: space-between;
+}
+.testitre{
+    color: gray;
+}
+.textetest{
+    color: gray;
+    text-align: justify; 
+}
+.textebleu{
+    color: rgb(1, 148, 148);
+}
+
+/* contact */
+
+.contact{
+    background-image: url(contact.png);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom:3vh;
+    
+}
+.contactexte{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+.responsive{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+.textenoir{
+    width: 50%;
+    margin-left: 19%;
+}
+#FULL-NAME{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 6vh;
+}
+#EMAIL{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 6vh;
+}
+.boutton{
+    height: 5vh;
+    border: 1px solid #00fff2;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    background-color:#00fff2 ;
+    float: center;
+    margin-left: 19%;
+    
+}
+#Text{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 10vh;
+}
+.CONTACT
+{
+    margin-left: 19%;
+}
+.alignement{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding-bottom: 10%;
+    margin-left: 19%;
+}
+.email{
+    padding-bottom: 10%;
+    margin-left: 19%;
+}
+.message{
+    padding-bottom: 2%;
+    margin-left: 19%;
+}
+/* footer */
+
+footer{
+    background-color: rgba(53, 63, 71, 1);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+    padding-top: 4%;
+}
+.home{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/*****************************************************************************************FIN ANDY*****************************************************************************************/
